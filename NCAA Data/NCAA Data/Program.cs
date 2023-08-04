@@ -10,10 +10,10 @@ namespace MyNamespace
             string APIkey = JObject.Parse(key).GetValue("APIKey").ToString();   /*(1) JObject.Parse:the content of our variable "string key" is parsed into a JObject
                                                                                 see 'ExampleResponse.Json' file for example of an object*/
 
-            //(2) GetValue Method: is extracting the value from the APIKey (in appsettings.Json file)
+                                                                                //(2) GetValue Method: is extracting the value from the APIKey (in appsettings.Json file)
 
-            /*(3) Converting the value from our APIKey to a string since our response from our API
-            call is in string format*/
+                                                                                /*(3) Converting the value from our APIKey to a string since our response from our API
+                                                                                call is in string format*/
 
             //bool pickTeam = false;
 
